@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*navbar section*/
+
+.navbar{
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #6c3c0c;
+    font-size: large;
+}
+.navbar ul {
+    list-style-type: none;
+  }
+
+.banklogo {
+    padding-left: 1rem;
+    width: 4rem;
+    height: auto;
+}
+
+.navbar li{
+    float: right;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1.6rem;
+    text-decoration: none;
+}
+
+
+li a:hover{
+    background-color: #111;
+}
+
+/*navbar section end*/
+
+/*-----------------------------------------------------------*/
+
+/*Page body design*/
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    
+    margin: auto;
+    justify-content: space-around;
+    width: 60vw;
+    
+}
+
+/*left side bar design*/
+.left-side-bar{
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    position: fixed;
+    left: 2rem;
+    
+}
+.left-side-bar-box{
+    display: flex;
+    margin-top: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+.left-side-bar span{
+    text-align: center;
+    padding: 0.4rem;
+}
+/*left side bar logo design*/
+.dollarlogo{
+    max-width: 2rem;
+}
+.eurologo{
+    width: 2rem;
+    height: 1.8rem;
+}
+.poundlogo{
+    width: 2rem;
+    height: 2rem;
+}
+.bitcoinlogo{
+    width: 2rem;
+    height: 2rem;
+}
+/*left side bar logo design end*/
+/*left side bar design end*/
+
+/*middle screen design*/
+.main-content{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 58vw;
+}
+.main-content h2{
+    margin-bottom: 1rem;
+    margin-top:1.5rem;
+}
+.second-text{
+    margin-bottom: 1.5rem;
+}
+.main-content h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #874b07;
+}
+/*middle screen design end*/
+
+/*right side bar design*/
+.right-side-bar{
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    position: fixed;
+    right: 2rem;
+    top: 4rem;
+    
+}
+.right-side-bar-box{
+    display: flex;
+    margin-top: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.right-side-bar-box span{
+    text-align: center;
+    padding-top: auto;
+    margin-top: 0.3rem;
+}
+.right-side-bar-box-ul{
+    border: solid;
+    border-radius: 0.5rem;
+    margin: 0.4rem;
+    padding: 0.2rem;
+}
+.right-side-bar-box ul{
+    list-style-type: none;
+    font-size: small;
+}
+.right-side-bar-box p{
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+/*right side bar logo design*/
+.userlogo{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 0.2rem;
+    margin: auto;
+    
+}
+.walletlogo{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: auto;
+}
+/*right side bar logo design end*/
+/*right side bar design end*/
+/*Page body design end */
+
+/*-----------------------------------------------------------*/
+
+/*Footer*/
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer-outter-box{
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+    background-color: #a95e13;
+    
+}
+.footer-inner-box{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    background-color:#a95e13;
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.footer-inner-box a{
+    text-decoration: none;
+    color: white;
+}
+.footer-inner-box:hover{
+    background-color: #111;
+}
+footer p{
+    text-align: center;
+    font-size: large;
+    margin-top: 0.5rem;
+}
+
+/*Footer end*/
+
+/*-----------------------------------------------------------*/
+
